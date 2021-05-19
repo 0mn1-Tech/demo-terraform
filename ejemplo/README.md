@@ -27,10 +27,10 @@ Salida esperada: ![enter image description here](./images/terraform_init.png)
 
 Para crear crear componentes es necesario:
 
- 1. Crear un plan. Comando: `terraform plan`. Salida esperada: [terraform plan](./images/terraform_plan.png)
- 2. Aplicar el plan.  Comando: `terraform apply`. Salida esperada: [terraform apply](./images/terraform_apply_1.png)
+ 1. Crear un plan. Comando: `terraform plan`. Salida esperada: ![terraform plan](./images/terraform_plan.png)
+ 2. Aplicar el plan.  Comando: `terraform apply`. Salida esperada: ![terraform apply](./images/terraform_apply_1.png)
  3. Confirmar la acción
- 4. Esperar a que los componentes sean creados. Salida esperada: [terraform apply](./images/terraform_apply_2.png)
+ 4. Esperar a que los componentes sean creados. Salida esperada: ![terraform apply](./images/terraform_apply_2.png)
 
 
 ## Eliminando componentes
