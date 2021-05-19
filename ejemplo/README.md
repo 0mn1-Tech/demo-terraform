@@ -19,7 +19,7 @@ Para este demo, inicializaremos nuestra configuración de terraform, luego crear
 ## Inicializando la configuración
 
 Comando: `terraform init`
-Salida esperada: ![enter image description here](./images/terraforn_init.png)
+Salida esperada: ![enter image description here](./images/terraform_init.png)
 
 
 
@@ -27,17 +27,17 @@ Salida esperada: ![enter image description here](./images/terraforn_init.png)
 
 Para crear crear componentes es necesario:
 
- 1. Crear un plan. Comando: `terraform plan`. Salida esperada: ![terraform plan](./images/terraforn_plan.png)
- 2. Aplicar el plan.  Comando: `terraform apply`. Salida esperada: ![terraform apply](./images/terraforn_apply_1.png)
+ 1. Crear un plan. Comando: `terraform plan`. Salida esperada: [terraform plan](./images/terraform_plan.png)
+ 2. Aplicar el plan.  Comando: `terraform apply`. Salida esperada: [terraform apply](./images/terraform_apply_1.png)
  3. Confirmar la acción
- 4. Esperar a que los componentes sean creados. Salida esperada: ![terraform apply](./images/terraforn_apply_2.png)
+ 4. Esperar a que los componentes sean creados. Salida esperada: [terraform apply](./images/terraform_apply_2.png)
 
 
 ## Eliminando componentes
 Para eliminar componentes es necesario: 
-1. Ejecutar el comando:`terraform destroy`. Salida esperada: ![terraform destroy](./images/terraforn_destroy_1.png)
+1. Ejecutar el comando:`terraform destroy`. Salida esperada: ![terraform destroy](./images/terraform_destroy_1.png)
 2. Confirmar la acción
-3. Esperar a que los componentes sean destruidos. Salida esperada: ![terraform destroy](./images/terraforn_destroy_2.png)
+3. Esperar a que los componentes sean destruidos. Salida esperada: ![terraform destroy](./images/terraform_destroy_2.png)
 
 
 
